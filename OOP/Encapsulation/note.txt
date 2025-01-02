@@ -1,0 +1,7 @@
+// Focuses on restricting direct access to class fields
+// Encapsulation is the bindind of data and method in a single unit, 
+// and sensitive data is hidden from user.
+// Data, Method, Constructor are bind with Access Modifier
+
+// Example: Using private properties and public getter/setter methods to control how data is accessed or modified.
+// Example: Using private properties and Public or Default Constructor methods.

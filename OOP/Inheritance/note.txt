@@ -1,0 +1,38 @@
+# A class inherits properties and methods from another class.
+# Parent class is called Base Class, Child class is called Derived class
+
+# there have 5 types inheritence
+    1. Single Inheritance: Derived class inherit directly from the base class
+            Base
+              ^
+              |
+            Derived
+
+    2. Multiple Inheritance: Derived class inherit from multiple base classes.
+            Base1  Base2 <---
+             ^              |
+             |              |
+            Derived ---------
+
+    3. Multilevel Inheritance: Derived class inherit from the class which 
+       is also derived class that inherit from base class.
+            Base
+              ^
+              |
+            Derived1
+              ^
+              |
+            Derived2
+
+    4. Hierarchical Inheritance: Multiple Derived classes inherit from a single base class.
+        -----> Base <-----
+        |                |
+        |                |
+        Derived1  Derived2
+
+    5. Hybrid Inheritance: Inheritance consisting of multiple 
+       inheritance types of the above specified. Example: Multiple + Hierarchical inheritance
+
+
+# Are there any limitations on Inheritance?
+    Yes, it makes difficult

@@ -1,0 +1,10 @@
+# Polymorphism means many form. Same function can act in different ways for different situation.
+
+# two types Polymorphism
+# Compile-Time Polymorphism: Method overloading (binding at compile time).
+# Runtime Polymorphism: Method overriding (binding at runtime).
+
+# Overloading: Multiple implementations of the same entity 
+    (methods, operators) resolved at compile time.
+# Overriding: Runtime resolution of entities with the same name 
+    and different implementations (often using virtual functions).

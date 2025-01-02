@@ -1,0 +1,9 @@
+# Abstraction
+    1. can't make instance directly, you have inherit to derived class, then you can access in main
+    2. you can make instance from derived class.
+        Example: Derived object = new Derived();
+
+# interface
+    1. can make instance directly in main, can implement to derived class
+    2. you can make instance through interface
+        Example: Interface object = new Derived();

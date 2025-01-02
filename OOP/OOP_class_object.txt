@@ -1,0 +1,33 @@
+# OOP full form is Object Oriented Programming
+# OOP benefits:
+    * Clarity: Better understanding of software.
+    * Maintainability: Easier to modify and update.
+    * Scalability: Well-suited for large projects.
+
+# class is a Blue Print of object
+# object is instance of class
+
+# OOP based on 4 pillers
+    1. Encapsulation
+    2. AStraction
+    3. Inheritance
+    4. Polymorphism
+
+# Advantage of OOP
+    * Reusability
+    * Maintainability
+    * Data Security
+
+# Disadvantage of OOP
+    * complex to build
+    * inheritance can be complex
+    * not ideal for all problems
+
+# OOP vs Structure Programming
+    ## OOP
+        * inheritance, Polymorphism
+        * More Secure
+    
+    ## Structural
+        * functional / module
+        * less secure

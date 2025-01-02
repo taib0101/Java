@@ -1,0 +1,5 @@
+# Imperative
+Focuses on how to achieve the goal (e.g., procedural, OOP, parallel).
+
+# Declarative
+Focuses on what to be executed (e.g., logical, functional, database).
