@@ -1,0 +1,35 @@
+#For write in .java file
+* step 01: import sql blueprints
+    import java.sql.*;
+
+* step 02: Load the PostgreSQL JDBC driver
+    Class.forName("org.postgresql.Driver");
+
+* step 03: connect data base steps.
+    String url = "jdbc:postgresql://localhost:5432/taibDatabase";
+    String user = "taib";
+    String password = "1234";
+
+    Connection connection = DriverManager.getConnection(url, user, password);
+    Statement statement = connection.createStatement();
+
+    for read "select query"
+        ResultSet result = statement.executeQuery(sql);
+        while(result.next())
+    for insert, update delete
+        statement.executeUpdate(sql);
+
+# For execute .java file
+* step 01: download postgresql-42.7.4.jar file from this site : https://jdbc.postgresql.org/download/
+* step 02: write command to execute the .java file
+    $ java -classpath ./postgresql-42.7.4.jar ./crud.java
+
+# in postgresql shell
+* step 01: $ sudo -i -u postgres
+* step 02: $ psql
+* step 03: $ create database taibDatabase
+* step 04: $ create user taib with password '1234';
+* step 05: $ grant all privileges on database taibDatabase to taib;
+* step 06: $ grant connect on database taibDatabase to taib;
+* step 07: $ psql -U taib -W -h localhost -p 5432 -d taibDatabase;
+
